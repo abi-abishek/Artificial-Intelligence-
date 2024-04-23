@@ -30,3 +30,13 @@ Installing libraries
 3. pip install scipy
 4. pip install imutils 
 
+Day 5 
+
+Face recognition project
+
+Haar cascade frontalface Recognition concept
+
+#faces = face_cascade.detectMultiScale(src,scalefactor,minNeighbors)
+
+faces = face_cascade.detectMultiScale(img,1.3,4)
+
